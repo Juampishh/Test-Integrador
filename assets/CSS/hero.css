@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #846952;
+}
+.hero{
+    position: relative;
+    top: 19px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-hero img{
+    width: 250;
+    border-radius: 4px;
+}
+
+.text-hero{
+    font-size: 24px;
+    width: 85%;
+    text-align: center;
+    color: #000;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+
+.tittle-maps{
+    color: #000;
+    margin-top: 20px;
+}
+.social-hero{
+    color: #000;
+    margin-top: 10px;
+
+}
+
+.chat-bubble{
+    font-size: 45px;
+    color: #000;
+    margin-top: 5px;
+    
+}
+.chat-bubble:hover{
+    color:#558c9e;
+    transition: all ease-in 0.5s;
+    font-size: 60px;
+}
+
+.catalogo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+
+.catalogo button{
+    width: 50%;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background-color:#ae9e6d;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.catalogo button:hover{
+    background-color:#d2aa63 ;
+    transition: 0.5s ease-in;
+    width: 70%;
+    height: 60px;
+}
+
+.catalogo button a:hover{
+    font-size: 30px;
+    transition: 0.5s ease-in;
+}
+
+.catalogo button a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.maps{
+    border-radius: 10px;
+}
+
+/*Cards*/
+
+.cards-container{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 280px;
+
+    border-radius: 20px;
+}
+
+.img-card{
+    width: 80%;
+    border-radius: 5px;
+}
+
+.card button{
+    margin: 10px;
+    width: 70px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 10px;
+}
+
+.recomend{
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+
+

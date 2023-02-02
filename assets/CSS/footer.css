@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    padding: 50px 0px;
+}
+hr{
+    width: 50%;
+}
+.client{
+    color: #fff;
+    font-weight: 300;
+}
+
+.number-cel{
+    color: #fff;
+}
+
+
+.redes-footer h2{
+    color: aqua;
+    font-size: 30px;
+}
+
+.redes-footer a{
+    font-size: 50px;
+    margin: 20px;
+    color: burlywood;
+    margin-top: 10px;
+}
+.redes-footer a:hover{
+    color: burlywood;
+    transition: all 0.5s ease-in;
+    font-size: 70px ;
+}
+
+.redes-footer h2{
+    color: #fff;
+}
+
+.code-by{
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+}

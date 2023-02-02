@@ -1,0 +1,55 @@
+@media (max-width:740px){
+    .navbar{
+        gap: 10px;
+    }
+    .toggle-menu{
+        display: block;
+    }
+    .li-nav-menu{
+        font-size: 15px;
+        font-weight: 800;
+    }
+   
+    .social-container ul li a{
+        font-size: 30px;
+    }
+    .input-container{
+        display: none;
+    }
+    .img-hero img{
+        width: 400px;
+    }
+    .text-hero{
+        width: 93%;
+        height: 45px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .tittle-maps{
+        font-size: 15px;
+    }
+    .maps{
+        width: 350px;
+        height: 220px;
+    }
+
+    .social-hero{
+        font-size: 17px;
+    }
+
+    .chat-bubble:hover{
+        transition: none;
+        color: #ffff;
+        font-size: 50px;
+    }
+
+    .catalogo button a{
+        font-size: 15px;
+    }
+
+    .catalogo button a:hover{
+        width: 150px;
+        font-size: 25px;
+    }
+}
